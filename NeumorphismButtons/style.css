@@ -1,0 +1,101 @@
+body{
+    background: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.upper-three{
+    height: 50px;
+    width: 250px;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: space-around;
+}
+.middle-two{
+    margin-top: 25px;
+    height: 50px;
+    width: 175px;
+    background: transparent;
+    transform: translateX(25%);
+}
+.lower-one{
+    margin-top: 25px;
+    height: 50px;
+    width: 90px;
+    background: transparent;
+    transform: translateX(100%);
+}
+img{
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 50%;
+    padding: 0;
+}
+#symbol-wifi:hover{
+    transform: rotateY(180deg);
+}
+#symbol-wifi{
+    position: relative;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+#symbol-mobile-data:hover{
+    transform: rotateY(180deg);
+}
+#symbol-mobile-data{
+    position: relative;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+#symbol-bluetooth:hover{
+    transform: rotateY(180deg);
+}
+#symbol-bluetooth{
+    position: relative;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+#symbol-auto-rotate:hover{
+    transform: rotateY(180deg);
+}
+#symbol-auto-rotate{
+    position: relative;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+#symbol-aeroplane:hover{
+    transform: rotateY(180deg);
+}
+#symbol-aeroplane{
+    position: relative;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+#symbol-profile:hover{
+    transform: rotateY(180deg);
+}
+#symbol-profile{
+    position: relative;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+#symbol-theme{
+    background: transparent;
+    border: 5px solid white;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(105px);
+}
